@@ -1,0 +1,77 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+header h1 {
+    border-style: inset;
+    border-color: rebeccapurple;
+    border-radius: 10px;
+    border-width: 10px;
+    color: black;
+    font-size: 3rem;
+}
+
+body {
+    background-color: rgb(61, 224, 143);
+}
+
+.la {
+    color: rgb(0, 0, 0);
+    background-color: lightskyblue;
+    margin: 15px, 15px, 15px, 15px;
+    padding: 30px, 50px, 25px, 10px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+.cajita{
+    background-color: rgba(111, 220, 253, 0.699);
+    border: outset, gray;
+    padding: auto;
+}
+
+.le {
+    color: rgb(0, 0, 0);
+    background-color: lightskyblue;
+    margin: 15px, 15px, 15px, 15px;
+    padding: 30px, 50px, 25px, 10px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    background-color: rgba(111, 220, 253, 0.699);
+}
+
+section h2{
+     color: rgb(0, 0, 0);
+    background-color: lightskyblue;
+    margin: 15px, 15px, 15px, 15px;
+    padding: 30px, 50px, 25px, 10px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+.a1{
+    background-color: rgba(111, 220, 253, 0.699);
+    border:solid gray; 
+}
+
+.a2 {
+    background-color: rgba(111, 220, 253, 0.699);
+    border:solid gray; 
+}
+
+.a3 {
+    background-color: rgba(111, 220, 253, 0.699);
+    border:solid gray; 
+}
+
+.a4 {
+    background-color: rgba(111, 220, 253, 0.699);
+    border:solid gray; 
+}
