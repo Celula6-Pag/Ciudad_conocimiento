@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../CSS/contacto.css">
+</head>
+
+<body>
+    <form action="https://formsubmit.co/estiwarrivas67@gmail.com" method="POST" class="formm">
+
+        <legend>Contactos</legend>
+        <div class="input-group">
+
+            <label for="Name">Nombre:</label>
+            <input type="text" id="Name" name="Nombre"  placeholder="Nombre" required>
+
+            <label for="Last_Name">Apellido:</label>
+            <input type="text" id="Last_Name" name="Apellido" placeholder="Apellido" required>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email"  placeholder="Email"required>
+
+            <label for="telefono">telefono:</label>
+            <input type="tel" id="telefono" name="telefono"  placeholder="telefono" required>
+
+            <label for="mensaje">mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="mensaje" ></textarea>
+
+            <label for="horario">horario preferido:</label>
+            <select name="horario-cita" id="horario"> 
+                <option value="mañana">mañana</option>
+                <option value="tarde" selected>tarde</option>
+                <option value="noche">noche</option>
+            </select>
+                <br>
+            <label for="suscripción">Deseas suscribirte:</label>
+            <input type="checkbox" id="suscripción" name="Aceptar-tyc">
+
+            <button class="button" type="submit">Enviar</button>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/prueba%20de%20html/contactos.html">
+            <input type="hidden" name="_CAPTCHA" value="falsE">
+        </div>
+        <section>
+            <h3>Ubicación y Horarios</h3>
+            <p>
+                Estamos ubicados en Calle 45 #12-88, Centro.<br>
+                Horario:<br>
+                - Lunes a Viernes: 8:00 AM - 8:00 PM<br>
+                - Sábados y Domingos: 9:00 AM - 6:00 PM
+            </p>
+        </section>
+    </form>
+    <form action="../index.html">
+        <button style="border: none; background: none; padding: 0;">
+            <img src="../imagenes/iconoDevolver.jpeg" alt="Botón" width="75" class="Principal">
+        </button>
+    </form>
+
+</body>
+</html>
