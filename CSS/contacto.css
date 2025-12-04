@@ -1,0 +1,85 @@
+body {
+    font-family: Arial,sans-serif;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formm {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0,2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    background-color: rgba(116, 223, 217, 0.5);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+legend {
+    font-size: 50px;
+    color: darkcyan;
+    font-weight: bold; }
+
+label {
+    color: darkcyan;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#suscripción{
+    position: relative;
+    top: -31px;
+    right: 15px;
+    color: darkcyan;
+} 
+
+input,textarea, select {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 2px solid darkcyan;
+    outline: none;
+}  
+input::placeholder, textarea::placeholder {
+    color: darkcyan;
+}
+
+select {
+    color: darkcyan;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    
+    body {
+        padding: 30px;
+    }
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input {
+        padding: 15px;
+    }
+
+}
+
+.Principal {
+    position: relative;
+    right: 598px;
+    margin-top: -110px;  
+}
