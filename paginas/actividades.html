@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Actividades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/actividades.css">
+</head>
+<body>
+  <header>
+    <h1>Recursos y actividades extracurriculares</h1>
+    <p>Lista de actividades, cronograma semanal, materiales anidados, galería de imágenes y enlaces externos.</p>
+  </header>
+
+  <!-- Lista de actividades -->
+  <section id="actividades">
+    <h2 class="la"  >1. Lista de actividades</h2>
+    <ul class="cajita">
+      <li>Arte y Creatividad.</li>
+      <li>Música.</li>
+      <li>Deportes.</li>
+      <li>Robótica.</li>
+      <li>Programación.</li>
+      <li>Club de lecturta</li>
+      <li>Danza</li>
+      <li>Teatro</li>
+      <li>Fotografía</li>
+      <li>Voluntariados</li>
+    </ul>
+  </section>
+
+  <!-- Tabla de cronograma semanal -->
+  <section class="cronograma" id="cronograma">
+    <h2 class="le">2. Cronograma semanal</h2>
+    <table aria-label="Cronograma semanal" border="1">
+      <thead class="cajita2">
+        <tr>
+          <th>Hora / Día</th>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles </th>
+          <th>Jueves    </th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:00 - 9:30</td>
+          <td>Arte y Creatividad</td>
+          <td>Música</td>
+          <td>Deportes</td>
+          <td>Robótica   </td>
+          <td>Programación</td>
+        </tr>
+        <tr>
+          <td>10:00 - 12:00</td>
+          <td>Club de lecturta</td>
+          <td>Danza</td>
+          <td>Programación</td>
+          <td>Fotografía </td>
+          <td>Teatro  </td>
+        </tr>
+        <tr>
+          <td>14:00 - 16:00</td>
+          <td>deportes</td>
+          <td>Fotografía</td>
+          <td>Teatro</td>
+          <td>Danza</td>
+          <td>Club de lectura</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Listas anidadas para materiales -->
+  <section id="materiales">
+    <h2>3. Materiales</h2>
+    <ul>
+      <li class="a1">Materiales de deporte
+        <ul><br>
+          <li>Balones</li>
+          <li>Conos</li>
+          <li>Mayas </li><br>
+        </ul>
+      </li><br>
+      <li class="a2">Equipo técnico
+        <ul><br>
+          <li>Cámaras</li>  
+          <li>Computadora portátil
+            <ul>
+              <li>Cargador</li>
+              <li>Funda</li>
+            </ul>
+          </li>
+          <li>Proyector</li>
+          <li>Disco externo 1TB</li>
+          <li>tornillos</li>
+          <li>destornilladores</li>
+          <li>armatodo (lego)</li>
+        </ul>
+      </li><br>
+      <li class="a3">Materiales lectura
+        <ul><br>
+          <li>Libros</li>
+          <li>Sillas</li>
+          <li>Mesas y rotulos</li>
+        </ul>
+        
+      </li><br>
+      <li class="a4"> Materiales Voluntariados
+        <ul><br>
+            <li>Kit de Emergencia</li>
+                <ul>
+                    <li>Agua y alimentos</li>
+                    <li>Primeros auxilios</li>
+                    <li>Medicamentos</li>
+                    <li>Higiene y Saneamiento</li>
+                    <li>Herramienta y suministro</li>
+                </ul><br>
+            <li>Equipo de Protección Civil y respuesta a emergencias</li>
+                <ul>
+                    <li>Extintores de incendios</li>
+                    <li>Equipamiento médico</li>
+                    <li>Comunicaciones</li>
+                    <li>Equipamiento para evacuación</li>
+                </ul>
+            </ul>
+      </li>
+    </ul>
+    
+  </section>
+
+  <!-- Sección de galería (solo imágenes) -->
+  <section id="galeria">
+    <h2>4. Galería</h2>
+    <p>Aquí te mostraremos una pequeñas muestras </p>
+    <div>
+      <img src="../imagenes/voluntarios.avif" alt="Imagen 1 " width="300" height="200">
+      <img src="../imagenes/club.jpg" alt="Imagen 2 " width="300" height="200">
+      <img src="../imagenes/deporte.jpg" alt="Imagen 3 " width="300" height="200">
+      <img src="../imagenes/artes.jpg" alt="Imagen 4 " width="300" height="200">
+      <img src="../imagenes/music.jpg" alt="imagen 5 " width="300" height="200">
+      <img src="../imagenes/danza.jpeg" alt="imagen 6 " width="300" height="200">
+      <img src="../imagenes/robotica.jpg" alt="imagen 7" width="300" height="200">
+      <img src="../imagenes/foto2.webp" alt="imagen 8" width="300" height="200">
+      <img src="../imagenes/progra.jpg" alt="imagen 9" width="300" height="200">
+    </div>
+  </section>
+
+  <!-- Enlaces a recursos externos -->
+  <section id="recursos">
+    <h2>5. Enlaces a recursos externos</h2>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener">MDN Web Docs (referencia HTML/CSS/JS)</a></li>
+      <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap (componentes y layout)</a></li>
+      <li><a href="https://unsplash.com/" target="_blank" rel="noopener">Unsplash (imágenes libres)</a></li>
+      <li><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Generado: Responsable — Integrante 4 · Plantilla HTML simple y lista para editar.</p>
+  </footer>
+</body>
+</html>
